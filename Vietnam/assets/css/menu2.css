@@ -1,0 +1,29 @@
+.nav a,
+.nav a:visited {
+    color: #005771 !important;
+}
+
+.nav a:hover,
+.nav a:active {
+    color: rgb(3, 112, 158) !important;
+}
+
+.nav .active {
+    color: #005673 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 4px 15px rgba(3, 112, 158, 0.3);
+    transition: 0.3s;
+}
+
+.nav .active h5 {
+    color: rgb(3, 112, 158);
+}
+
+.avatar-sm {
+    width: 80px !important;
+    height: 60px !important;
+}
+
+.shadow-none {
+    box-shadow: 0 0px 0px rgba(255, 255, 255, 0) !important;
+}
